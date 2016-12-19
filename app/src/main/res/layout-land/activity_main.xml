@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="192dp"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <Button
+
+        android:text="@string/button_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/btn_hello_world"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:elevation="0dp" />
+
+    <TextView
+        android:layout_height="64dp"
+        android:text="@string/hello_world"
+        android:gravity="center"
+        android:width="0dp"
+        android:id="@+id/tv_hello_world"
+        android:layout_width="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/rv_biere"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.88">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Toast me"
+
+        android:visible="true"
+        android:id="@+id/Toast_me"
+        android:icon="@android:drawable/ic_menu_manage" />
+
+
+    <item android:title="Notify me"
+
+        android:visible="true"
+        android:id="@+id/Notify_me"
+        android:icon="@android:drawable/ic_menu_manage" />
+
+    <item android:title="New intent"
+
+        android:visible="true"
+        android:id="@+id/New_Intent"
+        android:icon="@android:drawable/ic_menu_manage" />
+
+    <item android:title="Biers list"
+
+        android:visible="true"
+        android:id="@+id/Biers_list"
+        android:icon="@android:drawable/ic_menu_manage" />
+
+</menu>
